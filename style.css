@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGJsb3VyZCUyMGJvdHRvbXxlbnwwfHx8fDE2MzY2NzY0MjM&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-in;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.heart {
+    font-size: 4em;
+    margin: 20px 0;
+    animation: bounce 1s infinite;
+}
+
+.button, .reveal-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #e63946;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.button:hover, .reveal-button:hover {
+    background-color: #d62839;
+    transform: scale(1.05);
+}
+
+.gifts {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You, My Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>For You, My Love </h1>
+        <p>Every moment spent with you is like a beautiful dream come true.</p>
+        <p>You are the reason I believe in love, and I cherish every second we share.</p>
+        <p>Thank you for being you. I love you more than words can express!</p>
+        <div class="heart">❤️</div>
+        <a href="#gifts" class="button">See My Gift for You</a>
+    </div>
+
+    <div id="gifts" class="gifts">
+        <h2>My Special Gift for You</h2>
+        <p>Click the button below to reveal your surprise!</p>
+        <button onclick="revealGift()" class="reveal-button">Reveal Gift</button>
+        <p id="giftMessage" style="display:none;">🎁 A romantic dinner date awaits you! 🌹</p>
+    </div>
+
+    <footer>
+        <p>Made with ❤️ by Udit Verma</p>
+    </footer>
+
+    <script>
+        function revealGift() {
+            document.getElementById("giftMessage").style.display = "block";
+        }
+    </script>
+</body>
+</html>
